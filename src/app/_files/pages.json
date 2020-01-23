@@ -1,0 +1,26 @@
+{
+    "pages": [
+        {
+        "pageTitle": "Tenant Referencing",
+        "grid": {},
+        "mobile": {},
+        "faq": {},
+        "reviews": {},
+        "dashboard": {},
+        "contact": {},
+        "blog": {},
+        "footer": {}
+    },
+    {
+        "pageTitle": "Utilities",
+        "grid": {},
+        "mobile": {},
+        "faq": {},
+        "reviews": {},
+        "dashboard": {},
+        "contact": {},
+        "blog": {},
+        "footer": {}
+    }
+  ]
+}

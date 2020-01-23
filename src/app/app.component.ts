@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import countries from '../app/_files/countries.json';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ths-responsive-poc';
+  public countryList:{name:string, code:string}[] = countries;
+
 }

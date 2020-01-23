@@ -12,23 +12,34 @@
 
   <!-- Blog -->
   <div class="row w-1200 my-5 mx-auto">
-    <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-row justify-content-center my-2 order-lg-1  order-md-1  order-sm-1">
+    <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-row justify-content-center my-2 order-lg-1  order-md-1  order-sm-1 order-xs-1">
       <img src="../assets/harley-davidson-52UeZUkp3Hs-unsplash.jpg" class="img-fluid">
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-row justify-content-center my-2 order-lg-2  order-md-2  order-sm-2">
+    <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-row justify-content-center my-2 order-lg-2  order-md-2  order-sm-2 order-xs-2">
       <div class="blog">Blog 1</div>
     </div>
   </div>
 
   <div class="row w-1200 my-5 mx-auto">
-    <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-row justify-content-center my-2 order-lg-3  order-md-3  order-sm-4">
+    <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-row justify-content-center my-2 order-lg-3  order-md-3  order-sm-4 order-xs-4">
       <div class="blog">Blog 2</div>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-row justify-content-center my-2 order-lg-4  order-md-4  order-sm-3">
+    <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-row justify-content-center my-2 order-lg-4  order-md-4  order-sm-3 order-xs-3">
       <img src="../assets/ramona-kudure-vOqzskOBmwE-unsplash.jpg" class="img-fluid">
     </div>
   </div>
 
+</div>
+
+<div style="text-align:center">
+  <h2>
+      Country list from local json file...
+  </h2>
+  <ul *ngFor="let item of countryList">
+     <li>
+        <h3>Country Name :{{item.name}}, Code: {{item.code}}</h3>
+     </li>
+  </ul>
 </div>
